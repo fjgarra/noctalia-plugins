@@ -1,0 +1,19 @@
+{
+    "id": "garra-kbd-layout",
+    "name": "Keyboard Layout (garra)",
+    "version": "1.0.0",
+    "minNoctaliaVersion": "4.7.0",
+    "author": "garra",
+    "license": "MIT",
+    "description": "Shows the active keyboard layout in the bar. Correctly distinguishes us/intl from us/altgr-intl (native widget collapses both to 'Intl').",
+    "tags": ["Bar", "Niri"],
+    "entryPoints": {
+        "barWidget": "BarWidget.qml"
+    },
+    "dependencies": {
+        "plugins": []
+    },
+    "metadata": {
+        "defaultSettings": {}
+    }
+}
