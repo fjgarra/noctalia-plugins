@@ -7,6 +7,14 @@ Workspace de plugins QML para noctalia-shell (Quickshell). Cada subdirectorio es
 
 Paths relativos a `~/ia/noctalia-plugins/`.
 
+## Crear un plugin nuevo
+
+```bash
+bash new-plugin.sh <plugin-id> "<Plugin Name>"
+```
+
+Genera `<plugin-id>/` con `manifest.json`, `BarWidget.qml` (Item+BarPill mínimo) e `i18n/en.json`. Edita los `TODO` y despliega con el driver.
+
 ## Estructura de un plugin
 
 ```
