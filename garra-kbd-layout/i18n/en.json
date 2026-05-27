@@ -1,5 +1,20 @@
 {
     "menu": {
         "settings": "Widget settings"
+    },
+    "settings": {
+        "showText": {
+            "label": "Show text",
+            "desc": "Display the layout label next to the icon"
+        },
+        "useFlag": {
+            "label": "Use flag icon",
+            "desc": "Show a country flag emoji instead of the keyboard icon"
+        },
+        "labels": {
+            "title": "Labels per layout",
+            "desc": "Custom text for each layout. Leave empty to use the auto-detected code. Tip: you can paste flag emojis (🇺🇸 🇪🇸 🌐).",
+            "placeholder": "e.g. 🇺🇸 US, AltGr, ES…"
+        }
     }
 }
